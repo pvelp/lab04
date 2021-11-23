@@ -5,7 +5,7 @@
 #include <header.hpp>
 
 Broker::Broker(std::string &name, std::string &last_date, std::string &num_acc)
-  : _name(name), _last_date(last_date), _num_account(num_acc) {};
+  : _name(name), _last_date(last_date), _num_account(num_acc) {}
 
 void Broker::set_date(const std::string &date){
   if (_last_date < date){

@@ -1,9 +1,10 @@
 // Copyright 2021 Toschakov Pavel
 
-#ifndef INCLUDE_EXAMPLE_HPP_
-#define INCLUDE_EXAMPLE_HPP_
+#ifndef INCLUDE_HEADER_HPP_
+#define INCLUDE_HEADER_HPP_
 #include <iostream>
 #include <regex>
+#include <string>
 #include "boost/filesystem.hpp"
 
 class Broker{
@@ -20,4 +21,4 @@ class Broker{
   void print();
 };
 
-#endif // INCLUDE_EXAMPLE_HPP_
+#endif // INCLUDE_HEADER_HPP_
