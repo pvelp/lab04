@@ -1,5 +1,8 @@
 #include <header.hpp>
 
+auto empty_f() -> int {
+  return 0;
+}
 namespace fs = boost::filesystem;
 
 int main(int argc, char* argv[]) {
@@ -44,6 +47,6 @@ int main(int argc, char* argv[]) {
   for (auto &broker : brokers) {
     broker.second.print(); //для value словаря типа Broker используем метод
   }
-
+  empty_f();
   return 0;
 }
